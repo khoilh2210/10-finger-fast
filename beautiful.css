@@ -1,0 +1,72 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #39393b;
+    margin: 0;
+}
+
+h1{
+    color: #cdff00;
+}
+
+#border{
+    width: 50%;
+    height: 30%;
+    background-color: #1f1f21;
+    border-radius: 30px;
+    box-shadow:5px 5px #cdff00;
+}
+
+#btResetGame{
+    padding: 10px 10px;
+    border-radius: 30px;
+    color: #111111;
+    background-color: #cdff00;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+
+#btResetGame:hover{
+    background-color: #111111;
+    color: #cdff00;
+}
+
+#lbLives{
+    color: #cdff00;
+}
+
+#btStartGame{
+    padding: 10px 10px;
+    border-radius: 30px;
+    color: #111111;
+    background-color: #cdff00;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+
+#btStartGame:hover{
+    background-color: #111111;
+    color: #cdff00;
+}
+
+#inputNum{
+    padding: 10px 10px;
+    border-radius: 30px;
+    color: #e5e5e5;
+    background-color: #111111;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+#lbResult{
+    font-size: 16px;
+    color: #cdff00;
+    font-weight: bold;
+}
