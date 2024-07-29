@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Test</title>
+    <link rel="stylesheet" href="10-finger-fast.css">
+    <link rel="stylesheet" href="10-fingerfast.js">
+</head>
+<body>
+    <div class="container">
+        <h1>Typing Test</h1>
+        <div id="time-settings">
+            <label for="time-limit">Set time limit (minutes): </label>
+            <input type="number" id="time-limit" min="1" value="1">
+            <button onclick="startTest()">Start Test</button>
+        </div>
+        <div id="timer">Time Left: <span id="time-left"></span></div>
+        <div id="test-area">
+            <div id="random-words"></div>
+            <textarea id="user-input" placeholder="Start typing here..." disabled></textarea>
+        </div>
+        <div id="results">
+            <p id="wpm"></p>
+            <p id="accuracy"></p>
+        </div>
+    </div>
+    <script src="10-fingerfast.js"></script>
+</body>
+</html>
